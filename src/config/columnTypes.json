@@ -1,0 +1,124 @@
+{
+  "columnTypes": [
+    {
+      "id": "text",
+      "label": "Text",
+      "component": "TextCell",
+      "minWidth": 100,
+      "defaultWidth": 200,
+      "icon": "type"
+    },
+    {
+      "id": "number",
+      "label": "Number",
+      "component": "NumberCell",
+      "minWidth": 80,
+      "defaultWidth": 120,
+      "icon": "hash"
+    },
+    {
+      "id": "currency",
+      "label": "Currency",
+      "component": "CurrencyCell",
+      "minWidth": 100,
+      "defaultWidth": 140,
+      "icon": "dollar-sign"
+    },
+    {
+      "id": "status",
+      "label": "Status / Badge",
+      "component": "StatusBadge",
+      "minWidth": 100,
+      "defaultWidth": 120,
+      "icon": "tag"
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "component": "DateCell",
+      "minWidth": 100,
+      "defaultWidth": 140,
+      "icon": "calendar"
+    },
+    {
+      "id": "avatar-text",
+      "label": "Avatar + Text",
+      "component": "AvatarTextCell",
+      "minWidth": 150,
+      "defaultWidth": 200,
+      "icon": "user"
+    },
+    {
+      "id": "checkbox",
+      "label": "Checkbox",
+      "component": "CheckboxCell",
+      "minWidth": 50,
+      "defaultWidth": 60,
+      "icon": "check-square"
+    },
+    {
+      "id": "actions",
+      "label": "Actions",
+      "component": "ActionsCell",
+      "minWidth": 80,
+      "defaultWidth": 120,
+      "icon": "more-horizontal"
+    },
+    {
+      "id": "campaign-1line",
+      "label": "Campaign (1 line)",
+      "component": "Campaign1LineCell",
+      "minWidth": 200,
+      "defaultWidth": 280,
+      "icon": "layout"
+    },
+    {
+      "id": "campaign-2lines",
+      "label": "Campaign (2 lines)",
+      "component": "Campaign2LinesCell",
+      "minWidth": 200,
+      "defaultWidth": 280,
+      "icon": "layout"
+    },
+    {
+      "id": "user-badge",
+      "label": "User + Badge",
+      "component": "UserBadgeCell",
+      "minWidth": 150,
+      "defaultWidth": 200,
+      "icon": "user-check"
+    },
+    {
+      "id": "brand-badge",
+      "label": "Brand + Badge",
+      "component": "BrandBadgeCell",
+      "minWidth": 150,
+      "defaultWidth": 220,
+      "icon": "briefcase"
+    },
+    {
+      "id": "brand-icon",
+      "label": "Brand Icon",
+      "component": "BrandIconCell",
+      "minWidth": 180,
+      "defaultWidth": 240,
+      "icon": "image"
+    },
+    {
+      "id": "team-member",
+      "label": "Team Member",
+      "component": "TeamMemberCell",
+      "minWidth": 150,
+      "defaultWidth": 200,
+      "icon": "users"
+    },
+    {
+      "id": "list-item",
+      "label": "List Item",
+      "component": "ListItemCell",
+      "minWidth": 180,
+      "defaultWidth": 240,
+      "icon": "list"
+    }
+  ]
+}
